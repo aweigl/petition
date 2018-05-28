@@ -1,0 +1,8 @@
+<form id="loginForm" method="POST">
+  <h4 id="loginError">{{error}}</h4>
+  Email Address: <input type="text" name="email"><br>
+  Password: <input type="password" name="password"><br>
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+   <button type="submit">LOG IN</button><br>
+   <button type="button" name="button"><a href="/register">REGISTER</a></button>
+</form>

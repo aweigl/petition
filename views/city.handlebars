@@ -1,0 +1,15 @@
+
+<a id="back" href="/signers">Back</a><br>
+<section id = "cityList">
+{{#signerNames}}
+{{#if homepage}}
+<ul>
+<a target="_blank" href="/user/{{homepage}}">{{first}} {{last}}</a>, {{age}} <a href="/signers/{{city}}">{{city}}</a>
+</ul>
+{{else}}
+<ul>
+{{first}} {{last}}, {{age}} <a href="/signers/{{city}}">{{city}}</a>
+</ul>
+{{/if}}
+{{/signerNames}}
+</section>

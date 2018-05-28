@@ -1,0 +1,200 @@
+body {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-gap: 8px;
+}
+
+section {
+    display: grid;
+}
+
+input[type="text"] {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+input[type="password"] {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+#headerSection h1 {
+    justify-self: center;
+    font-family: 'Playfair Display', serif;
+}
+
+#textSection {
+    justify-items: center;
+}
+
+#textSection h3 {
+    width: 88%;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;
+}
+
+#png {
+    justify-self: center;
+}
+
+#bodyHandle {
+    justify-content: center;
+}
+
+#bodyHandle p {
+    justify-self: center;
+}
+
+::placeholder {
+    color: #ED6253
+}
+
+#form {
+    display: grid;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    width: 400px;
+    grid-gap: 7px;
+}
+
+#form input {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+}
+
+#form button {
+    color: #ED6253;
+}
+
+#bodyHandle {
+    font-family: 'Playfair Display', serif;
+}
+
+#bodyHandle input {
+    display: grid;
+}
+
+#bodyHandle button {
+    justify-self: center;
+    color: #ED6253;
+    width: 316px;
+    font-size: 14px;
+}
+
+#bodyHandle a {
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    color: #ED6253;
+}
+
+#bodyHandle h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+#profileForm {
+    display: grid
+}
+
+#profileForm button {
+    color: #ED6253;
+}
+
+#regForm {
+    display: grid;
+    font-family: 'Playfair Display', serif;
+}
+
+#regError {
+    color: #ED6253;
+}
+
+#loginError {
+    color: #ED6253;
+}
+
+input {
+    border-radius: 3px;
+}
+
+#loginForm {
+    display: grid;
+    width: 316px;
+}
+
+#login {
+    color: #ED6253
+}
+
+#logout {
+    justify-self: end;
+    color: #ED6253;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-decoration: none
+}
+
+#signPetitionBelow {
+    font-size: 18px;
+    justify-self: center;
+    text-decoration: underline;
+}
+
+#signup {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    width: 316px;
+}
+
+#signerOptions {
+    grid-row-gap: 30px;
+}
+
+#signerOptions a {
+    justify-self: center;
+}
+
+#signerList {
+    border: 3px dashed #ccc;
+    overflow: scroll;
+    height: 400px;
+}
+
+#signerList ul {
+    padding: 0;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#cityList {
+    border: 3px dashed #ccc;
+    overflow: scroll;
+}
+
+#cityList ul {
+    padding: 0;
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#back {
+    color: #ED6253;
+    justify-self: center
+}
+
+canvas {
+    border: 3px dashed #ccc;
+}
+
+#check {
+    display: none;
+}
+
+#bodyHandle img {
+    border: 3px dashed #ccc;
+}
+
+button {
+    border-radius: 7px
+}

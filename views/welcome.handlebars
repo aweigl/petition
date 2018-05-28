@@ -1,0 +1,11 @@
+<h5 id="signPetitionBelow">Mr/Mrs {{last}} please sign below:</h5>
+<form id="form" method="POST">
+  <input type='hidden' name='signature'>
+  <canvas id="signature", height="200", width="400"></canvas>
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <button type="submit">SUBMIT</button>
+  <button type="button" name="button"><a href="/petition">CLEAR SIGNATURE</a></button>
+</form>
+<h4>{{message}}</h4>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
+<script src="/script.js" charset="utf-8"></script>

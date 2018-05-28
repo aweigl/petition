@@ -1,0 +1,16 @@
+<a id="back" href="/signed">Back</a>
+<p>{{error}}</p>
+<form id="form" method="POST">
+  {{#info}}
+  First name: <input type="text" name="firstname" placeholder="*" value='{{first}}'>
+  Last name: <input type="text" name="lastname" placeholder="*" value='{{last}}'>
+  E-mail: <input type="text" name="email" placeholder="*" value='{{mail}}'>
+  Password: <input type="text" name="password" placeholder="to keep your password, leave this field empty">
+  Age: <input type="text" name="age" value='{{age}}'>
+  City: <input type="text" name="city" value='{{city}}'>
+  Homepage: <input type="text" name="homepage" value='{{homepage}}'>
+  {{/info}}
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+  <p>* mandatory fields</p>
+  <button type="submit">UPDATE</button>
+</form>

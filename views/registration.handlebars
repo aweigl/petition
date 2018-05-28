@@ -1,0 +1,13 @@
+<h4 id="regError">{{error}}</h4>
+<form id="regForm" method="POST">
+  First name: <input type="text" name="firstname" placeholder="*"><br>
+  Last name: <input type="text" name="lastname" placeholder="*"><br>
+  Email Address: <input type="text" name="email" placeholder="*"><br>
+  Password: <input type="password" name="password" placeholder="*"><br>
+  <input type="hidden" name="_csrf" value="{{csrfToken}}">
+   <button id="signup" type="submit">SIGN UP</button>
+</form>
+<p>* mandatory fields</p>
+<p>If you already have an account please
+    <a id="login" href="/login">log in</a>
+</p>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link rel="stylesheet" href="/stylesheet.css">
+        <link rel="shortcut icon" type="image/png" href="/petitionsIcon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Petition</title>
+    </head>
+
+    <body>
+    <section id = "headerSection">
+        {{#if logged}}
+        <a id = "logout" href="/logout">Log out</a>
+        {{else}}
+        {{/if}}
+        <h1> NO MORE PETITIONS! </h1>
+    </section>
+    <section id="textSection">
+        <img id="png" src="/petitionsIcon.png" alt="">
+        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h3>
+    </section>
+    <section id="bodyHandle">
+        {{{body}}}
+    </body>
+    </section>
+    <script src="/stylesheet.css" charset="utf-8"></script>
+</html>
